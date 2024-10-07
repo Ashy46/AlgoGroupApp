@@ -5,6 +5,6 @@ In push, I created a new node which had the head as its next one and incremented
 
 In pop, I did the reverse, setting the next node of the current head as the new head, decrementing the depth, and returning the value of the previous head. If head was empty, I returned an exception. 
 
-In peek, I returned the value of the head node and if head is empty, return an exception. 
+In peek, I return the value of the head node and if head is empty, return an exception. 
 
 Lastly, in size, I returned the depth counter. 
